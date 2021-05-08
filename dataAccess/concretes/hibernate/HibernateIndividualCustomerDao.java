@@ -1,0 +1,9 @@
+package myHomeworkBackend.dataAccess.concretes.hibernate;
+
+import myHomeworkBackend.core.dataAccess.hibernate.HibernateEntityRepositoryBase;
+import myHomeworkBackend.dataAccess.abstracts.IndividualCustomerDao;
+import myHomeworkBackend.entities.concretes.IndividualCustomer;
+
+public class HibernateIndividualCustomerDao extends HibernateEntityRepositoryBase<IndividualCustomer> implements IndividualCustomerDao {
+
+}

@@ -1,0 +1,9 @@
+package myHomeworkBackend.dataAccess.concretes.inMemory;
+
+import myHomeworkBackend.core.dataAccess.inMemory.InMemoryEntityRepositoryBase;
+import myHomeworkBackend.dataAccess.abstracts.IndividualCustomerDao;
+import myHomeworkBackend.entities.concretes.IndividualCustomer;
+
+public class InMemoryIndividualCustomerDao extends InMemoryEntityRepositoryBase<IndividualCustomer> implements IndividualCustomerDao {
+
+}
